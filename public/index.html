@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="siteLBApp">
+<head>
+	<meta charset="UTF-8">
+	<!-- bower:css -->
+	<link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.css" />
+	<!-- endbower -->
+
+	<!-- inject:css -->
+	<link rel="stylesheet" href="/dist/app.css">
+	<!-- endinject -->
+
+	<!--[if lt IE 9]>
+		<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<base href="/">
+</head>
+<body>
+
+	<header>
+		<div ui-view="header"></div>
+	</header>
+
+	<div ui-view="container"></div>
+
+	<footer>
+		<div ui-view="footer"></div>
+	</footer>
+
+
+	<!-- bower:js -->
+	<script src="lib/jquery/dist/jquery.js"></script>
+	<script src="lib/bootstrap/dist/js/bootstrap.js"></script>
+	<script src="lib/angular/angular.js"></script>
+	<script src="lib/angular-ui-router/release/angular-ui-router.js"></script>
+	<!-- endbower -->
+
+	<!-- inject:js -->
+	<script src="/dist/app.js"></script>
+	<!-- endinject -->
+
+	<link rel="stylesheet" href="src/styles/style.scss">
+
+</body>
+</html>

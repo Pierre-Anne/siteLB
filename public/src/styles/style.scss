@@ -1,0 +1,58 @@
+.header-title {
+  background: #00b3ee;
+  text-align: center;
+  height: 50px;
+}
+
+.homePage{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.footer {
+  text-align: center;
+  height: 40px;
+  margin-top: 40px;
+}
+
+.payment {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.product {
+  margin-left: 10%;
+  margin-right: 10%;
+
+  .product-prez {
+    margin-top: 20px;
+
+    .product-img {
+      text-align: right;
+      img {
+        height: 300px;
+      }
+    }
+
+    .red-text {
+      color: #880000;
+    }
+
+    .green-text {
+      color: #2b542c;
+    }
+
+    .red-price {
+      color: #880000;
+      text-decoration: line-through;
+    }
+
+    .blue-price {
+      color: #00b3ee;
+    }
+  }
+
+  .product-description {
+    text-align: left;
+  }
+}
